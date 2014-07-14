@@ -10,3 +10,5 @@ This application has not been tested on python3. So far it works well on python 
 i) Yaml response is unicode encoded. It has to be modified to ascii.
 
 ii) Make the console application more interactive.
+
+iii) Tests to be added.
