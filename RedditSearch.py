@@ -18,12 +18,12 @@
 
 usage_string = """\
 
-redditSearch - starts the search in console mode and prints the response to console or a dump file. 
+RedditSearch - starts the search in console mode and prints the response to console or a dump file. 
 			   Results of the feed are sorted by author 
 
-Usage: redditSearch.py <source_options> <values> 
+Usage: RedditSearch.py <source_options> <values> 
 
-	(i.e) redditSearch -q <queryTerm> -f <format> (optional) -o <output file> (optional)
+	(i.e) RedditSearch -q <queryTerm> -f <format> (optional) -o <output file> (optional)
 
 	<source_options> specifies one or more switches for defining the search
 		-q   defines the query term to be searched
@@ -41,14 +41,14 @@ Usage: redditSearch.py <source_options> <values>
 
 Examples: 
 
-	redditSearch -q subreddit:fifa                      # Performs a reddit search and prints the JSON response to console
-	redditSearch -q subreddit:fifa	-f  json            # Performs a reddit search and prints the JSON response to console
-	redditSearch -q subreddit:fifa	-f  xml             # Performs a reddit search and prints the XML response to console
-	redditSearch -q subreddit:fifa	-f  yaml            # Performs a reddit search and prints the YAML response to console
-	redditSearch -q subreddit:fifa	-f  json  -o        # Performs a reddit search and dumps the JSON response to subreddit:fifa.json
-	redditSearch -q subreddit:fifa	-f  xml   -o        # Performs a reddit search and dumps the XML response to subreddit:fifa.xml
-	redditSearch -q subreddit:fifa	-f  yaml  -o        # Performs a reddit search and dumps the YAML response to subreddit:fifa.yaml
-	redditSearch -q subreddit:fifa	-f  json  -o  foo   # Performs a reddit search and prints the JSON response to foo.json
+	RedditSearch -q subreddit:fifa                      # Performs a reddit search and prints the JSON response to console
+	RedditSearch -q subreddit:fifa	-f  json            # Performs a reddit search and prints the JSON response to console
+	RedditSearch -q subreddit:fifa	-f  xml             # Performs a reddit search and prints the XML response to console
+	RedditSearch -q subreddit:fifa	-f  yaml            # Performs a reddit search and prints the YAML response to console
+	RedditSearch -q subreddit:fifa	-f  json  -o        # Performs a reddit search and dumps the JSON response to subreddit:fifa.json
+	RedditSearch -q subreddit:fifa	-f  xml   -o        # Performs a reddit search and dumps the XML response to subreddit:fifa.xml
+	RedditSearch -q subreddit:fifa	-f  yaml  -o        # Performs a reddit search and dumps the YAML response to subreddit:fifa.yaml
+	RedditSearch -q subreddit:fifa	-f  json  -o  foo   # Performs a reddit search and prints the JSON response to foo.json
 
 
 """
